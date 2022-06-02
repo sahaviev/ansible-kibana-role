@@ -1,7 +1,8 @@
 galaxy_info:
-  author: your name
+  author: Rail Sakhaviev
   description: your role description
-  company: your company (optional)
+  company: netology
+  role_name: kibana_role
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -38,6 +39,13 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: CentOS
+      versions:
+        - all
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
